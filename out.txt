@@ -1,0 +1,201 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5 167548 10328 ?        Ss   20:33   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    20:33   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   20:33   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   20:33   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   20:33   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   20:33   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    20:33   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    20:33   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    20:33   0:00 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    20:33   0:00 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    20:33   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    20:33   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    20:33   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    20:33   0:00 [kdevtmpfs]
+root          18  0.0  0.0      0     0 ?        I<   20:33   0:00 [netns]
+root          19  0.0  0.0      0     0 ?        I<   20:33   0:00 [inet_frag_wq]
+root          20  0.0  0.0      0     0 ?        S    20:33   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    20:33   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    20:33   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   20:33   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    20:33   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   20:33   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   20:33   0:00 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   20:33   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   20:33   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   20:33   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   20:33   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   20:33   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   20:33   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   20:33   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   20:33   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    20:33   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I<   20:33   0:00 [kworker/0:1H-kblockd]
+root          84  0.0  0.0      0     0 ?        S    20:33   0:00 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    20:33   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   20:33   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   20:33   0:00 [acpi_thermal_pm]
+root          90  0.0  0.0      0     0 ?        S    20:33   0:00 [scsi_eh_0]
+root          91  0.0  0.0      0     0 ?        I<   20:33   0:00 [scsi_tmf_0]
+root          92  0.0  0.0      0     0 ?        S    20:33   0:00 [scsi_eh_1]
+root          93  0.0  0.0      0     0 ?        I<   20:33   0:00 [scsi_tmf_1]
+root          95  0.0  0.0      0     0 ?        I<   20:33   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   20:33   0:00 [mld]
+root          97  0.0  0.0      0     0 ?        I<   20:33   0:00 [ipv6_addrconf]
+root         108  0.0  0.0      0     0 ?        I<   20:33   0:00 [kstrp]
+root         111  0.0  0.0      0     0 ?        I<   20:33   0:00 [zswap-shrink]
+root         112  0.0  0.0      0     0 ?        I<   20:33   0:00 [kworker/u3:0]
+root         117  0.0  0.0      0     0 ?        I<   20:33   0:00 [charger_manager]
+root         159  0.0  0.0      0     0 ?        S    20:33   0:00 [scsi_eh_2]
+root         160  0.0  0.0      0     0 ?        I<   20:33   0:00 [scsi_tmf_2]
+root         181  0.0  0.0      0     0 ?        S    20:33   0:00 [jbd2/sda5-8]
+root         182  0.0  0.0      0     0 ?        I<   20:33   0:00 [ext4-rsv-conver]
+root         222  0.0  1.5  81872 31100 ?        S<s  20:33   0:00 /lib/systemd/systemd-journald
+root         246  0.0  0.3  23948  6536 ?        Ss   20:33   0:00 /lib/systemd/systemd-udevd
+root         247  0.0  0.0      0     0 ?        I<   20:33   0:00 [ttm_swap]
+root         248  0.0  0.0      0     0 ?        S    20:33   0:00 [irq/18-vmwgfx]
+root         249  0.0  0.0      0     0 ?        S    20:33   0:00 [card0-crtc0]
+root         250  0.0  0.0      0     0 ?        S    20:33   0:00 [card0-crtc1]
+root         251  0.0  0.0      0     0 ?        S    20:33   0:00 [card0-crtc2]
+root         252  0.0  0.0      0     0 ?        S    20:33   0:00 [card0-crtc3]
+root         253  0.0  0.0      0     0 ?        S    20:33   0:00 [card0-crtc4]
+root         254  0.0  0.0      0     0 ?        S    20:33   0:00 [card0-crtc5]
+root         255  0.0  0.0      0     0 ?        S    20:33   0:00 [card0-crtc6]
+root         256  0.0  0.0      0     0 ?        S    20:33   0:00 [card0-crtc7]
+root         260  0.0  0.0      0     0 ?        S<   20:33   0:00 [loop0]
+root         261  0.0  0.0      0     0 ?        S<   20:33   0:00 [loop1]
+root         264  0.0  0.0      0     0 ?        S<   20:33   0:00 [loop2]
+root         267  0.0  0.0      0     0 ?        S<   20:33   0:00 [loop3]
+root         269  0.0  0.0      0     0 ?        S<   20:33   0:00 [loop4]
+root         279  0.0  0.0      0     0 ?        S<   20:33   0:00 [loop5]
+root         285  0.0  0.0      0     0 ?        S<   20:33   0:00 [loop6]
+root         293  0.0  0.0      0     0 ?        S<   20:33   0:00 [loop7]
+root         327  0.0  0.0      0     0 ?        I<   20:33   0:00 [cryptd]
+systemd+     503  0.0  0.5  24000 11500 ?        Ss   20:33   0:00 /lib/systemd/systemd-resolved
+systemd+     504  0.0  0.2  90220  4744 ?        Ssl  20:33   0:00 /lib/systemd/systemd-timesyncd
+root         535  0.0  0.4 242316  9500 ?        Ssl  20:33   0:00 /usr/lib/accountsservice/accounts-daemon
+root         536  0.0  0.0   2548   708 ?        Ss   20:33   0:00 /usr/sbin/acpid
+avahi        541  0.0  0.1   8532  3168 ?        Ss   20:33   0:00 avahi-daemon: running [dmitriy-VirtualBox.local]
+root         544  0.0  0.1   9428  2668 ?        Ss   20:33   0:00 /usr/sbin/cron -f
+root         545  0.0  0.4  28180  8340 ?        Ss   20:33   0:00 /usr/sbin/cupsd -l
+message+     546  0.0  0.2   9884  6008 ?        Ss   20:33   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         547  0.0  0.9 339404 18956 ?        Ssl  20:33   0:04 /usr/sbin/NetworkManager --no-daemon
+root         561  0.0  0.9  39340 19848 ?        Ss   20:33   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         563  0.0  0.6 245748 13092 ?        Ssl  20:33   0:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       571  0.0  0.2 224352  4384 ?        Ssl  20:33   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         574  0.0  1.5 726576 30540 ?        Ssl  20:33   0:01 /usr/lib/snapd/snapd
+root         575  0.0  0.3 235948  6612 ?        Ssl  20:33   0:00 /usr/libexec/switcheroo-control
+root         576  0.0  0.3  16720  6540 ?        Ss   20:33   0:00 /lib/systemd/systemd-logind
+root         581  0.0  0.6 395524 12944 ?        Ssl  20:33   0:00 /usr/lib/udisks2/udisksd
+root         586  0.0  0.1  13684  3484 ?        Ss   20:33   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        597  0.0  0.0   8348   288 ?        S    20:33   0:00 avahi-daemon: chroot helper
+root         619  0.0  0.5 178392 11420 ?        Ssl  20:33   0:00 /usr/sbin/cups-browsed
+root         641  0.0  1.1 118140 22288 ?        Ssl  20:33   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         644  0.0  0.4 314464  8832 ?        Ssl  20:33   0:00 /usr/sbin/ModemManager
+whoopsie     686  0.0  0.6 327208 13844 ?        Ssl  20:33   0:00 /usr/bin/whoopsie -f
+kernoops     693  0.0  0.1  11260  2536 ?        Ss   20:33   0:00 /usr/sbin/kerneloops --test
+kernoops     698  0.0  0.1  11260  2700 ?        Ss   20:33   0:00 /usr/sbin/kerneloops
+root         904  0.0  0.4 239824  8452 ?        Ssl  20:33   0:00 /usr/sbin/gdm3
+root         914  0.0  0.1 360968  2796 ?        Sl   20:33   0:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+rtkit        949  0.0  0.1 152936  2948 ?        SNsl 20:33   0:00 /usr/libexec/rtkit-daemon
+root        1034  0.0  0.4 252488  9104 ?        Ssl  20:33   0:00 /usr/lib/upower/upowerd
+colord      1236  0.0  0.7 249360 16020 ?        Ssl  20:33   0:00 /usr/libexec/colord
+root        1288  0.0  0.4 314872  9880 ?        Sl   20:35   0:00 gdm-session-worker [pam/gdm-password]
+dmitriy     1304  0.0  0.4  19084  8332 ?        Ss   20:35   0:00 /lib/systemd/systemd --user
+dmitriy     1305  0.0  0.1 168960  2128 ?        S    20:35   0:00 (sd-pam)
+dmitriy     1311  0.2  0.7 2982272 14964 ?       Ssl  20:35   0:17 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+dmitriy     1313  0.0  0.8 511768 16204 ?        SNsl 20:35   0:00 /usr/libexec/tracker-miner-fs
+dmitriy     1315  0.0  0.3 240612  7136 ?        Sl   20:35   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+dmitriy     1319  0.0  0.3  11300  7928 ?        Ss   20:35   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+dmitriy     1323  0.0  0.3 239944  6948 ?        Ssl  20:35   0:00 /usr/libexec/gvfsd
+dmitriy     1328  0.0  0.3 382064  7372 ?        Sl   20:35   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+dmitriy     1342  0.0  0.5 317836 10596 ?        Ssl  20:35   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+dmitriy     1353  0.0  0.3 238328  6180 ?        Ssl  20:35   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+dmitriy     1358  0.0  0.3 316972  7696 ?        Ssl  20:35   0:00 /usr/libexec/gvfs-afc-volume-monitor
+dmitriy     1363  0.0  0.2 235920  5872 ?        Ssl  20:35   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+dmitriy     1367  0.0  0.2 236124  5608 ?        Ssl  20:35   0:00 /usr/libexec/gvfs-goa-volume-monitor
+dmitriy     1370  0.0  0.3 164232  6236 tty2     Ssl+ 20:35   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+dmitriy     1373  0.0  1.2 547892 26044 ?        Sl   20:35   0:00 /usr/libexec/goa-daemon
+dmitriy     1375  1.4  6.5 334540 131884 tty2    Sl+  20:35   1:30 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+dmitriy     1383  0.0  0.5 392752 10352 ?        Sl   20:35   0:00 /usr/libexec/goa-identity-service
+dmitriy     1409  0.0  0.7 190948 14808 tty2     Sl+  20:35   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+dmitriy     1482  0.0  0.0  22624   168 ?        S    20:35   0:00 /usr/bin/VBoxClient --clipboard
+dmitriy     1483  0.0  0.0 154760  1996 ?        Sl   20:35   0:00 /usr/bin/VBoxClient --clipboard
+dmitriy     1494  0.0  0.0  22624   176 ?        S    20:35   0:00 /usr/bin/VBoxClient --seamless
+dmitriy     1495  0.0  0.1 154860  2444 ?        Sl   20:35   0:00 /usr/bin/VBoxClient --seamless
+dmitriy     1501  0.0  0.0  22624   168 ?        S    20:35   0:00 /usr/bin/VBoxClient --draganddrop
+dmitriy     1502  0.1  0.1 155376  2400 ?        Sl   20:35   0:11 /usr/bin/VBoxClient --draganddrop
+dmitriy     1508  0.0  0.0  22624   172 ?        S    20:35   0:00 /usr/bin/VBoxClient --vmsvga
+dmitriy     1509  0.0  0.1 157140  3344 ?        Sl   20:35   0:00 /usr/bin/VBoxClient --vmsvga
+dmitriy     1516  0.0  0.0   6040    96 ?        Ss   20:35   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+dmitriy     1535  0.0  0.4 383500  8492 ?        Ssl  20:35   0:00 /usr/libexec/at-spi-bus-launcher
+dmitriy     1541  0.0  0.1   7244  3700 ?        S    20:35   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+dmitriy     1548  0.0  0.1  90288  3792 ?        Ssl  20:35   0:00 /usr/libexec/gnome-session-ctl --monitor
+dmitriy     1554  0.0  0.7 487628 15780 ?        Ssl  20:35   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+dmitriy     1569  3.2 19.2 3788020 390004 ?      Ssl  20:35   3:27 /usr/bin/gnome-shell
+dmitriy     1588  0.0  0.4 315116  9284 ?        Sl   20:35   0:00 ibus-daemon --panel disable --xim
+dmitriy     1592  0.0  0.4 166948  8268 ?        Sl   20:35   0:00 /usr/libexec/ibus-memconf
+dmitriy     1593  0.0  1.2 278944 25656 ?        Sl   20:35   0:01 /usr/libexec/ibus-extension-gtk3
+dmitriy     1596  0.0  1.3 201268 28028 ?        Sl   20:35   0:00 /usr/libexec/ibus-x11 --kill-daemon
+dmitriy     1598  0.0  0.4 240748  8524 ?        Sl   20:35   0:00 /usr/libexec/ibus-portal
+dmitriy     1609  0.0  0.2 162908  5912 ?        Sl   20:35   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+dmitriy     1613  0.0  0.2 235988  5984 ?        Ssl  20:35   0:00 /usr/libexec/xdg-permission-store
+dmitriy     1618  0.0  0.6 581848 12336 ?        Sl   20:35   0:00 /usr/libexec/gnome-shell-calendar-server
+dmitriy     1624  0.0  0.8 677684 18016 ?        Ssl  20:35   0:00 /usr/libexec/evolution-source-registry
+dmitriy     1634  0.0  0.9 708220 19616 ?        Ssl  20:35   0:00 /usr/libexec/evolution-calendar-factory
+dmitriy     1642  0.0  0.2 156200  5668 ?        Sl   20:35   0:00 /usr/libexec/dconf-service
+dmitriy     1647  0.0  0.9 673928 18788 ?        Ssl  20:35   0:00 /usr/libexec/evolution-addressbook-factory
+dmitriy     1669  0.0  0.5 318096 10684 ?        Sl   20:35   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+dmitriy     1674  0.0  1.1 2599160 23392 ?       Sl   20:35   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+dmitriy     1692  0.0  0.4 314360  9152 ?        Ssl  20:35   0:00 /usr/libexec/gsd-a11y-settings
+dmitriy     1697  0.0  1.5 571284 31616 ?        Ssl  20:35   0:00 /usr/libexec/gsd-color
+dmitriy     1699  0.0  0.7 374932 16184 ?        Ssl  20:35   0:00 /usr/libexec/gsd-datetime
+dmitriy     1706  0.0  0.4 314600  9672 ?        Ssl  20:35   0:00 /usr/libexec/gsd-housekeeping
+dmitriy     1707  0.0  1.5 349264 30532 ?        Ssl  20:35   0:00 /usr/libexec/gsd-keyboard
+dmitriy     1715  0.0  1.5 691520 32208 ?        Ssl  20:35   0:00 /usr/libexec/gsd-media-keys
+dmitriy     1716  0.0  1.5 349660 30836 ?        Ssl  20:35   0:00 /usr/libexec/gsd-power
+dmitriy     1717  0.0  0.5 248504 10832 ?        Ssl  20:35   0:00 /usr/libexec/gsd-print-notifications
+dmitriy     1720  0.0  0.2 457384  6012 ?        Ssl  20:35   0:00 /usr/libexec/gsd-rfkill
+dmitriy     1721  0.0  0.2 235920  6072 ?        Ssl  20:35   0:00 /usr/libexec/gsd-screensaver-proxy
+dmitriy     1723  0.0  0.5 469480 11420 ?        Ssl  20:35   0:00 /usr/libexec/gsd-sharing
+dmitriy     1728  0.0  0.5 318524 10492 ?        Ssl  20:35   0:00 /usr/libexec/gsd-smartcard
+dmitriy     1733  0.0  0.5 322228 11108 ?        Ssl  20:35   0:00 /usr/libexec/gsd-sound
+dmitriy     1738  0.0  0.4 388332  9364 ?        Ssl  20:35   0:00 /usr/libexec/gsd-usb-protection
+dmitriy     1739  0.0  2.5 788864 50936 ?        Sl   20:35   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+dmitriy     1742  0.0  1.4 348864 30000 ?        Ssl  20:35   0:00 /usr/libexec/gsd-wacom
+dmitriy     1744  0.0  0.5 318720 10272 ?        Ssl  20:35   0:00 /usr/libexec/gsd-wwan
+dmitriy     1747  0.0  1.5 349896 31696 ?        Ssl  20:35   0:00 /usr/libexec/gsd-xsettings
+dmitriy     1781  0.0  0.2 231800  5564 ?        Sl   20:35   0:00 /usr/libexec/gsd-disk-utility-notify
+dmitriy     1792  0.0  0.7 342472 14472 ?        Sl   20:35   0:00 /usr/libexec/gsd-printer
+dmitriy     1864  0.0  0.4 166940  8824 ?        Sl   20:35   0:00 /usr/libexec/ibus-engine-simple
+dmitriy     2003  0.3  3.7 1005544 75776 ?       Sl   20:36   0:19 /usr/bin/nautilus --gapplication-service
+dmitriy     2044  0.0  0.3 162552  6376 ?        Ssl  20:36   0:00 /usr/libexec/gvfsd-metadata
+dmitriy     2050  0.0  2.2 806952 46020 ?        Sl   20:36   0:00 update-notifier
+dmitriy     2124  0.0  7.0 924540 142116 ?       SNl  20:37   0:03 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+dmitriy     2362  1.2 19.7 3435412 401020 ?      Sl   20:56   1:05 /usr/lib/firefox/firefox -new-window
+dmitriy     2393  0.0  0.5 463108 10448 ?        Ssl  20:56   0:00 /usr/libexec/xdg-desktop-portal
+dmitriy     2397  0.0  0.3 392400  6692 ?        Ssl  20:56   0:00 /usr/libexec/xdg-document-portal
+dmitriy     2406  0.0  1.4 497316 30204 ?        Ssl  20:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+dmitriy     2450  0.0  5.6 2410912 113960 ?      Sl   20:56   0:01 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 248334 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2362 true tab
+dmitriy     2494  0.0  4.8 2411304 97384 ?       Sl   20:56   0:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 4539 -prefMapSize 248334 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2362 true tab
+dmitriy     2548  1.4  7.8 2538312 158256 ?      Sl   20:56   1:14 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 5245 -prefMapSize 248334 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2362 true tab
+dmitriy     2672  0.0  1.9 203812 38704 ?        Sl   20:56   0:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20220330194208 -prefsLen 7676 -prefMapSize 248334 -appDir /usr/lib/firefox/browser 2362 true rdd
+dmitriy     2686  0.0  0.4 450376  8112 ?        Sl   20:56   0:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+dmitriy     2696  0.0  0.2 360064  5708 ?        Sl   20:56   0:00 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+dmitriy     2699  0.0  0.1 159740  2228 ?        Ssl  20:56   0:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+dmitriy     2733  0.0  5.9 2422164 121444 ?      Sl   20:56   0:00 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 7676 -prefMapSize 248334 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2362 true tab
+dmitriy     3009  0.0  4.9 2398900 101128 ?      Sl   21:03   0:00 /usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 8018 -prefMapSize 248334 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2362 true tab
+dmitriy     3039  0.0  3.5 2379848 72892 ?       Sl   21:03   0:00 /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 8018 -prefMapSize 248334 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2362 true tab
+dmitriy     3066  0.0  3.6 2380392 73524 ?       Sl   21:03   0:00 /usr/lib/firefox/firefox -contentproc -childID 13 -isForBrowser -prefsLen 8018 -prefMapSize 248334 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2362 true tab
+dmitriy     3069  0.0  3.6 2380388 73628 ?       Sl   21:03   0:00 /usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 8018 -prefMapSize 248334 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2362 true tab
+root        3143  0.0  0.0      0     0 ?        I    21:03   0:00 [kworker/u2:0-events_power_efficient]
+root        3389  0.0  0.0      0     0 ?        I    21:53   0:01 [kworker/0:0-events]
+root        3482  0.0  0.0      0     0 ?        I    22:01   0:00 [kworker/0:1-cgroup_destroy]
+root        3548  0.0  0.0      0     0 ?        I    22:10   0:00 [kworker/u2:2-events_unbound]
+root        3702  0.0  0.0      0     0 ?        I    22:16   0:00 [kworker/u2:1-events_power_efficient]
+dmitriy     3879  0.1  1.3 435288 27536 ?        Ssl  22:22   0:00 /usr/libexec/tracker-store
+dmitriy     3941 16.3  2.6 816136 53068 ?        Ssl  22:23   0:00 /usr/libexec/gnome-terminal-server
+dmitriy     3949  0.0  0.2  10624  4968 pts/0    Ss   22:23   0:00 bash
+dmitriy     3958  0.0  0.1   9640  3508 pts/0    S+   22:23   0:00 /bin/bash ./rib1lab/lab1
+dmitriy     3960  0.0  0.1  11728  3492 pts/0    R+   22:23   0:00 ps -aux
